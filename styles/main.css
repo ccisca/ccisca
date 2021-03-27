@@ -234,7 +234,7 @@ body {
 
 h1 {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
   padding: 0 !important;
   margin: 0;
@@ -248,7 +248,7 @@ h1 {
 
 h2 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
   padding: 0;
   margin: 0;
@@ -257,6 +257,7 @@ h2 {
 @media (max-width: 991.98px) {
   h2.section_title {
     margin-bottom: 30px;
+    padding: 0;
   }
 }
 
@@ -463,7 +464,6 @@ img {
 @media (max-width: 767.98px) {
   #header ul li {
     margin-bottom: 15px;
-    background: #FFFEFA;
   }
 }
 
@@ -479,8 +479,15 @@ img {
 }
 
 #footer .emoji {
-  font-size: 2.4rem;
+  width: 100%;
   margin-bottom: 50px;
+}
+
+#footer .emoji img {
+  width: 23px;
+  height: 23px;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 #footer .copyright {
@@ -495,14 +502,15 @@ img {
 
 @media (max-width: 767.98px) {
   #title {
-    margin: 55vh auto 50px;
+    margin: 45vh auto 50px;
   }
 }
 
 #title h3 {
   font-size: 35px;
   font-style: italic;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 
 #about {
